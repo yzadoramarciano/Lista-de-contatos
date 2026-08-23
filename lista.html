@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/css/lista.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <title>Lista de Contatos</title>
+</head>
+<body>
+    <main>
+         <h3>Lista de Contatos</h3>
+        
+        
+    <div id="listadeContatos"></div>
+    
+    <button type="button" id="btnVoltar">Voltar</button>
+
+    </main>
+
+    <div id="overlay"></div>
+
+    <div id="tabelaEdicao">
+        <form id="formularioEdicao" >
+            <p><label for="nomeCont">Nome</label>
+            <input type="text" name="nomeCont" id="nomeCont" required>
+            </p>
+            <p> <label for="teleCont">Telefone</label>
+            <input type="text" name="teleCont" id="teleCont" required>
+            </p>
+            <p> 
+            <label for="emailCont">Email</label>
+            <input type="email" name="emailCont" id="emailCont" required>
+                </p>
+            <button type="submit" id="btnSalvar">Salvar</button>
+        </form>
+
+    </div>
+
+
+    <script src="assets/js/lista.js"></script>
+</body>
+</html>

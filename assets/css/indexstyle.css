@@ -1,0 +1,81 @@
+body {
+    background-color: #64e6b2;
+    color: #00a033;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+
+}
+
+main {
+
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+    margin-top: 5%;
+    background-color: white;
+    padding: 20px;
+}
+
+
+h3 {
+
+    font-size: 20px;
+}
+
+
+form > p > input {
+
+    display: flex;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    border: 1px solid #00a033;
+
+}
+
+form > button {
+    
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #00a033;
+    color: #fcfcfc;
+    font-weight: bold;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+    
+
+
+}
+
+
+form > button:hover {
+
+    background-color: #34bb5f;
+
+}
+
+#btnAbrirLista {
+
+
+    text-decoration: none;
+    margin-top: 12px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #00a033;
+    color: #fcfcfc;
+    width: 100%;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+    
+}
+
+#btnAbrirLista:hover {
+
+      background-color: #34bb5f;
+
+}

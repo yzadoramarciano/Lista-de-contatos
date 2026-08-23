@@ -1,0 +1,195 @@
+body {
+     background-color: #64e6b2;
+    color: #00a033;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Manrope", sans-serif;
+
+}
+
+
+h3 {
+
+    font-size: 20px;
+}
+
+
+main {
+
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+    margin-top: 5%;
+    background-color: white;
+    padding: 20px;
+}
+
+
+#listadeContatos {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.contato {
+
+    border: 2px solid #34bb5f;
+    border-radius: 10px;
+    padding: 5px;
+     color: #00a033;
+    width:100%;
+    margin-top: 3px;
+
+
+}
+
+
+.btnsDeletar {
+
+
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+     background-color: #c52323;
+    color: white;
+    
+}
+
+
+.btnsDeletar:hover {
+
+    background-color: #d50a0a;
+      cursor: pointer;
+
+
+}
+
+.btnsEditar {
+
+      border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #0aa023;
+    color: white;
+
+
+}
+
+.btnsEditar:hover {
+
+    background-color: #00d423;
+    cursor: pointer;
+
+}
+
+
+
+#btnVoltar {
+    
+    margin-top: 13px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #00a033;
+    color: #fcfcfc;
+    font-weight: bold;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+    
+}
+
+#btnVoltar:hover {
+
+    background-color: #34bb5f;
+}
+
+
+
+#overlay {
+
+
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s; 
+
+}
+
+#overlay.ativa {
+
+   visibility: visible;
+    opacity: 1;
+    position: fixed;
+    inset: 0;
+    background-color: rgba(93, 74, 74, 0.5);
+    backdrop-filter: blur(2px);
+    transition: 0.3s; 
+
+
+}
+
+
+
+
+
+
+
+#tabelaEdicao.ativo {
+
+   background-color: #43d198;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 30%;
+    display: block;
+    transition: 0.3s; 
+
+}
+
+#tabelaEdicao {
+
+    display: none;
+    transition: 0.3s; 
+
+
+}
+
+
+
+div > form > p > input {
+
+   display: flex;
+
+    
+}
+
+#btnSalvar {
+
+    margin-top: 13px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #1ed558;
+    color: #fcfcfc;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+
+
+}
+
+#btnSalvar:hover {
+ background-color: #34bb5f;
+
+
+}
+
+
+
+
+
+

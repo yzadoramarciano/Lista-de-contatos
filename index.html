@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/indexstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <title>Agenda de contatos</title>
+</head>
+<body>
+    
+
+    <main>
+        <header><h3>Agenda de contatos</h3></header>
+
+        <form id="formulario">
+            <p><label for="nomeCont">Nome</label>
+            <input type="text" name="nomeCont" id="nomeCont" required>
+            </p>
+            <p> <label for="teleCont">Telefone</label>
+            <input type="text" name="teleCont" id="teleCont" required>
+            </p>
+            <p> 
+            <label for="emailCont">Email</label>
+            <input type="email" name="emailCont" id="emailCont" required>
+                </p>
+            <button type="submit" id="btnSalvar">Salvar</button>
+        </form>
+
+        <button type="button" id="btnAbrirLista">Ver lista de contatos</button>
+
+    </main>
+
+    <script src="assets/js/index.js"></script>
+    
+</body>
+</html>
