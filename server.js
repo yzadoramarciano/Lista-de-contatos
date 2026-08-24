@@ -86,7 +86,8 @@ server.get ('/contatos/:id' , async (request, reply) =>{
 
 
 server.listen ({
-    
+
+    host: '0.0.0.0',
    port: process.env.PORT ?? 8080,
 
 }, (err, address) => {
