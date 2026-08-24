@@ -21,7 +21,7 @@ formulario.addEventListener ('submit' ,  async (event) => {
 
     try {
 
-    const resposta = await fetch ("http://localhost:8080/contatos", {
+    const resposta = await fetch ("https://lista-de-contatos-lip4.onrender.com/contatos", {
 
        method: "POST",
 

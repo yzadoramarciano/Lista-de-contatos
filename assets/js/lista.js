@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded',  carregarContatos);
  async function carregarContatos () {
 
     try {
-   const respostaAPI = await fetch ("http://localhost:8080/contatos" , {
+   const respostaAPI = await fetch ("https://lista-de-contatos-lip4.onrender.com/contatos" , {
 
       method: "GET",
 
@@ -65,7 +65,7 @@ async function deletarContato (id) {
    
    try {
 
-      const respostaAPI = await fetch (`http://localhost:8080/contatos/${id}`, {
+      const respostaAPI = await fetch (`https://lista-de-contatos-lip4.onrender.com/contatos/${id}`, {
 
        method: "DELETE",
 
@@ -107,7 +107,7 @@ async function editarContato (id)   {
 
 
    try {
-   const respostaAPI = await fetch (`http://localhost:8080/contatos/${id}` , {
+   const respostaAPI = await fetch (`https://lista-de-contatos-lip4.onrender.com/contatos/${id}` , {
 
       method: "GET",
 
@@ -137,7 +137,7 @@ formularioEdicao.elements.emailCont.value = contato.emailcont;
     event.preventDefault();
 
    try {
-   const resposta = await fetch (`http://localhost:8080/contatos/${id}` , 
+   const resposta = await fetch (`https://lista-de-contatos-lip4.onrender.com/contatos/${id}` , 
 
       {
 
