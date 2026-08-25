@@ -5,4 +5,8 @@ const { PGHOST, PGDATABASE, PGUSER, PGPASSWORD, PGSSLMODE, PGCHANNELBINDING } = 
 // Transformaria em URl tudo, as variaveis ambiente 
 const URL = `postgres://${PGUSER}:${PGPASSWORD}@${PGHOST}/${PGDATABASE}?sslmode=${PGSSLMODE}&channel_binding=${PGCHANNELBINDING}`;
 export const sql = postgres(URL);
-
+console.log('PGHOST:', PGHOST);
+console.log('PGDATABASE:', PGDATABASE);
+console.log('PGUSER:', PGUSER);
+console.log('PGSSLMODE:', PGSSLMODE);
+console.log('PGCHANNELBINDING:', PGCHANNELBINDING);
